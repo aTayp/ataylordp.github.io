@@ -105,3 +105,12 @@ footer {
   right: 20px; /* Distance from the right of the screen */
   z-index: 1000; /* Ensures the badge stays above other content */
 }
+
+@media screen and (max-width: 900px) {
+  .badge-container {
+    float: none; /* Removes floating on small screens */
+    margin: 20px auto; /* Centers the badge */
+    display: block;
+    text-align: center; /* Centers the badge horizontally */
+  }
+}
