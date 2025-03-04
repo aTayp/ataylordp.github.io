@@ -106,11 +106,18 @@ footer {
   z-index: 1000; /* Ensures the badge stays above other content */
 }
 
+/* Styles for smaller screens (e.g., phones) */
 @media screen and (max-width: 900px) {
-  .badge-container {
-    float: none; /* Removes floating on small screens */
-    margin: 20px auto; /* Centers the badge */
-    display: block;
-    text-align: center; /* Centers the badge horizontally */
+  .credly-badge {
+      position: relative; /* Allows the badge to flow with the document */
+      float: none; /* Removes floating */
+      margin: 20px auto; /* Centers the badge horizontally */
+      display: block; /* Ensures it behaves as a block element */
+      text-align: center; /* Centers the badge content */
+      width: 100px; /* Reduces the width for smaller screens */
+      height: auto; /* Maintains aspect ratio */
+      opacity: 0.7; /* Makes the badge semi-transparent */
+      margin-top: 40px; /* Adds space between the resume content and the badge */
+      bottom: 0; /* Moves the badge to the bottom of the page */
   }
 }
