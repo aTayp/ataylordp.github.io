@@ -3335,6 +3335,13 @@ input, select, textarea {
 	cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
+@media screen and (max-width: 768px) {
+    .back-button {
+        opacity: 0; /* Makes the button invisible */
+        pointer-events: none; /* Disables interaction */
+    }
+}
+
 /* Hover Effect */
 .floating-back-button:hover {
 	background-color: darkgreen; /* Darker green on hover */
