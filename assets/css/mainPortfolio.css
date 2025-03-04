@@ -97,3 +97,11 @@ footer {
 .floating-back-button:hover {
 	background-color: darkgreen; /* Darker green on hover */
 }
+
+/* Style for the fixed Credly badge */
+.credly-badge {
+  position: fixed; /* Ensures the badge stays fixed on the screen */
+  top: 20px; /* Distance from the top of the screen */
+  right: 20px; /* Distance from the right of the screen */
+  z-index: 1000; /* Ensures the badge stays above other content */
+}
