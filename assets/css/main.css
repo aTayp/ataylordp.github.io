@@ -3336,7 +3336,7 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 768px) {
-    .back-button {
+    .floating-back-button {
         opacity: 0; /* Makes the button invisible */
         pointer-events: none; /* Disables interaction */
     }
